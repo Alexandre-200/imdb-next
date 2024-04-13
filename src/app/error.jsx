@@ -1,10 +1,7 @@
 "use client"
 
-import { useEffect } from "react"
-
 export default function Error({ error, reset }) {
 
-   
     return (
         <div className="text-center mt-10">
             <h1>Algo deu errado, por favor tente novamente mais tarde.</h1>
